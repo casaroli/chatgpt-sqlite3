@@ -1,11 +1,7 @@
 [database]
-driver = ODBC Driver 18 for SQL Server
-server = 127.0.0.1
-database = xxxxxx
-user = xxxxx
-password = xxxxxx
-encrypt = yes
+file = data.db
 
 [openai]
-api_key = xxxxxx
-org = xxxx
+api_key = 
+model = gpt-3.5-turbo
+org = 

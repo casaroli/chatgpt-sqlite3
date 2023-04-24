@@ -8,7 +8,7 @@ def main():
     print("Ask any question about the data. Enter 'q' to quit. Enter 'r' to reset ChatGPT.")
     controller = Controller()
     while True:
-        user_input = input("Question: ")
+        user_input = input("User: ")
         if user_input.lower() == 'q':
             break
         if user_input == "r":
